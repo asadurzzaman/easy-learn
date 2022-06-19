@@ -9,6 +9,7 @@ if ( ! class_exists( 'TwinkleSMTPUtils' ) ) {
     class TwinkleSMTPUtils
     {
 
+
         function enqueue_style( $name, $src = '', $deps = array(), $ver = TWINKLE_SMTP_VERSION, $media = 'all' ) {
             $handle = "twinkle-smtp-".$name;
             $src = TWINKLE_SMTP_CSS_DIR . $src;
