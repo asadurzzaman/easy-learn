@@ -1,0 +1,46 @@
+#wpbody{
+    background: #F0F5FF;
+    margin-left: -20px;
+}
+
+#twinkle_smtp_main {
+    font-size: 15px;
+}
+
+#twinkle_smtp_header {
+    background: #FFFFFF;
+    height: 70px;
+}
+
+#twinkle_smtp_container{
+    padding: 50px 80px;
+}
+
+#twinkle_smtp_analytics{
+    display: none;
+    background: #ffffff;
+    height: 400px;
+    border-radius: 20px;
+}
+#twinkle_smtp_settings{
+    display: none;
+    background: red;
+    height: 400px;
+    border-radius: 20px;
+}
+
+
+#twinkle_smtp_header{
+    display: flex;
+}
+
+.twinkle_smtp_header_nav{
+    display: flex;
+}
+.twinkle_smtp_header_nav .twinkle_smtp_header_nav_item{
+    padding: 30px;
+    cursor: pointer;
+}
+.twinkle_smtp_header_nav .twinkle_smtp_header_nav_item:hover{
+    background: #F0F5FF;
+}
